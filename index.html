@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Games</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/pio.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body background="image/background.jpg">
+    <div class="mygames">
+        <a href="https://toy-gun.github.io/web-mobile/">Plane War</a>
+        <a href="https://toy-gun.github.io/web-desktop/">Cocos Example</a>
+        <a href="https://toy-gun.github.io/H5/">H5 Maze Game</a>
+        <a href="https://toy-gun.github.io/myweb">Web Test</a>
+    </div>
+
+    <!-- Load TweenLite -->
+    <script src="TweenLite.js"></script>
+
+    <!-- Copyrighted cubism SDK -->
+    <script src="live2dcubismcore.min.js"></script>
+    <!-- Load Pixi (dependency for cubism 2/4 integrated loader) -->
+    <script src="pixi.min.js"></script>
+    <!-- Load cubism 4 integrated loader -->
+    <script src="cubism4.min.js"></script>
+
+    <!-- Load pio and alternative loader -->
+    <script src="pio.js"></script>
+    <script src="pio_sdk4.js"></script>
+
+    <script src="load.js"></script>
+    <script src="index.js"></script>
+
+
+    <div class="calendar">
+        <div class="header">
+            <a data-action="prev-month" href="javascript:void(0)" title="Previous Month"><i></i></a>
+            <div class="text" data-render="month-year"></div>
+            <a data-action="next-month" href="javascript:void(0)" title="Next Month"><i></i></a>
+        </div>
+        <div class="months" data-flow="left">
+            <div class="month month-a">
+                <div class="render render-a"></div>
+            </div>
+            <div class="month month-b">
+                <div class="render render-b"></div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
